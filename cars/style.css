@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+}
+#header{
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    left: 0; right: 0;
+}
+#header .container{
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header .container .logo{
+    font-size: 20px;
+
+}
+#header .container #navbar ul li{
+    display: inline-block;
+    margin: 17px;
+}
+#header .container #navbar ul li a{
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    transition: 5s;
+}
+#header .container #navbar ul li a:hover{
+    text-decoration: underline;
+}
+.common-btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #5168f4;
+    cursor: pointer;
+    font-weight: bold;   
+}
+#cars{
+    padding: 0 20%;
+}
+
+#cars .cars-container{
+    display: flex;
+    align-items: center;
+    gap: 18rem;
+}
+#cars .cars-container .col-1{
+    flex-basis: 50%;
+    max-width: 350px;
+}
+#cars .cars-container .col-1 h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+#cars .cars-container .col-1 p{
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#cars .cars-container .col-1 .come-btn{
+    padding: 10px 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #5168f4;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;   
+}
+#more{
+    padding-top: 20px;
+}
+#more .heading{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: 800;
+}
+#more .container .rows{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+}
+#more .container .rows .row{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
